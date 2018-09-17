@@ -1,0 +1,205 @@
+body {
+	background-color: #fff;
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+}
+
+#bodyWrapper
+{
+   margin: auto;
+   border: 0;
+   width: 860px;
+}
+
+/* Keep banner separated from main image on landing page */
+#banner-separate-from-main
+{
+	
+	margin-bottom:  12px;
+}
+
+/* Blend banner with main image on landing page so images flow together */
+#banner-blend-with-main
+{
+	margin:  0;
+	padding:  0;
+}
+
+#oa
+{
+	position:relative;
+	border:  1px solid black;
+	color: #FFF; 
+	height: 40px;
+	margin-bottom:  1px;
+	
+}
+
+/*
+#middle
+{
+	overflow: auto;
+}
+
+#mainPromo img
+{
+	float: left;
+	margin: 16px 10px;
+}
+#mainPromo .headline
+{
+    padding: 16px 0;	
+    font-size: 26px;
+	font-weight: bold;
+}
+*/
+
+#mainPromo
+{
+	width: 623px;
+}
+
+#mainPromo img
+{
+	padding-right: 12px;
+}
+
+#promos
+{
+	margin-top: 12px;
+	margin-bottom: 0;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#promos img
+{
+	float: left;
+	margin-right: 5px;
+	margin-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
+}
+
+/* Default Use when there are 1 to 3 promos */
+#promos div.promoWrapper
+{
+	border: 0;
+	width: 270px;
+	height:  100px;
+	float: left;
+	margin:  0 6px;
+	padding: 0;
+}
+
+/* Use when there are 4 promos */
+#promos div.fourpromoWrapper
+{
+	border: 0;
+	width: 199px;
+	height:  100px;
+	float: left;
+	margin:  0 6px;
+	padding: 0;
+}
+
+#promos div.promo .headline, #sidenav .headline
+{
+	font-size: 26px;
+	font-weight: bold;
+	text-decoration:underline
+
+}
+
+#promos div.center
+{
+	padding: 0 1em;
+	float:none;
+	vertical-align: middle;
+	display : table-cell;
+	text-align: center;
+}
+.oaPosition
+{
+	position:absolute;
+}
+
+div.clear
+{
+	clear: both;
+}
+
+/* SECONDARY NAVIGATION
+======================================== */
+#sidenav
+{
+	padding: 0;  
+	border:  0;
+	width: 231px;
+	overflow: auto;
+	float: right;
+}
+
+/* FOOTER 
+======================================== */
+#footer {
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding: 12px .25em;
+}
+
+#footer img {
+	float: right;
+	clear:right;
+	border: 0;
+}
+#footer_wrapper {
+	margin:0 auto;
+}
+
+#creed{
+	background-image: url(../images/creed_footer.gif);
+	background-repeat: no-repeat;
+	height: 161px;
+	/* width: 957px; */
+	text-align: center;
+	margin-bottom: 17px;
+}
+
+#fineprint {
+	width: 600px; 
+	margin-right: 20px;
+	margin-left: 2px;
+	float: left;
+}
+
+#fineprint .headline {
+	font-weight: bold; 
+}
+#fineprint img {
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 5px; 
+}
+
+#footer_wrapper p {
+	font-size: 12px;
+	font-weight: normal;
+	display: block;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: .5em;
+	margin-left: 0px;
+}
+
+#AULsignature {
+	position:relative;
+	width:230px;
+	height:72px;
+	padding-top:20px;
+	float:right;
+}
